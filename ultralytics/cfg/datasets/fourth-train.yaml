@@ -1,0 +1,11 @@
+# 指向训练集
+train: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\KITTI\train
+ 
+# 指向验证集
+val: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\KITTI\val
+ 
+# 指向测试集
+test: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\KITTI\test
+ 
+nc: 9 # 类别数
+names: ["Car", "Van", "Truck", "Pedestrian", "Person_sitting", "Cyclist", "Tram", "Misc", "DontCare"]

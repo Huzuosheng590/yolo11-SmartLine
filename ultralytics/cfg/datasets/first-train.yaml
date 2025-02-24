@@ -1,0 +1,11 @@
+# 指向训练集
+train: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Ours\train
+ 
+# 指向验证集
+val: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Ours\val
+ 
+# 指向测试集
+test: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Ours\test
+ 
+nc: 8 # 类别数
+names: [ "background", "ramp", "sign", "road", "rail", "emergency", "car", "stop"]  # 类别名称

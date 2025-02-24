@@ -1,0 +1,11 @@
+# 指向训练集
+train: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\cityscapes\train
+ 
+# 指向验证集
+val: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\cityscapes\val
+ 
+# 指向测试集
+test: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\cityscapes\test
+ 
+nc: 20 # 类别数
+names: ["background", "sidewalk", "building", "wall", "fence", "pole", "traffic light", "traffic sign", "vegetation", "terrain", "sky", "person", "rider", "car", "truck", "bus", "train", "motorcycle", "bicycle", "road"]

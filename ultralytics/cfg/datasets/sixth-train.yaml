@@ -1,0 +1,12 @@
+# 指向训练集
+train: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Voc\train
+ 
+# 指向验证集
+val: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Voc\val
+ 
+# 指向测试集
+test: D:\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\Voc\test
+ 
+nc: 20  # 类别数
+names: [ "aeroplane","bicycle","bird","boat","bottle","bus","car","cat","chair","cow","diningtable","dog","horse","motorbike","person", "pottedplant","sheep","sofa","train","tvmonitor"]  # 类别名称
+

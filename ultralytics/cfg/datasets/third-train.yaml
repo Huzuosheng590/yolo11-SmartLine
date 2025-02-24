@@ -1,0 +1,11 @@
+# 指向训练集
+train: C:\Users\16030\Desktop\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\train1
+ 
+# 指向验证集
+val: C:\Users\16030\Desktop\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\val1
+ 
+# 指向测试集
+test: C:\Users\16030\Desktop\ultralytics-main\ultralytics-main\ultralytics\cfg\datasets\test1
+ 
+nc: 10  # 类别数
+names: [ "pedestrian", "people", "bicycle", "car","van", "truck", "tricycle", "awning tricycle","motor","bus"]  # 类别名称
